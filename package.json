@@ -1,0 +1,27 @@
+{
+  "name": "express-server-deployment",
+  "version": "1.0.0",
+  "description": "HTTP Express Server deploy on Heroku.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alsosteve/express-server-deployment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alsosteve/express-server-deployment/issues"
+  },
+  "homepage": "https://github.com/alsosteve/express-server-deployment#readme",
+  "dependencies": {
+    "dotenv": "^11.0.0",
+    "express": "^4.17.2",
+    "jest": "^27.4.7",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.1"
+  }
+}
