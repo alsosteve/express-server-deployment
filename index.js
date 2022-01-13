@@ -1,6 +1,7 @@
 'use strict';
 
-const server = require('./app.js');
+require('dotenv').config();
+const server = require('./src/server.js');
 
 
 
